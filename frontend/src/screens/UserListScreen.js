@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
 import { listUsers, deleteUser } from '../actions/userActions'
+import styles from './UserListScreen.module.css'
 
 const UserListScreen = ({ history }) => {
   const dispatch = useDispatch()

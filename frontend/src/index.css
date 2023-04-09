@@ -1,23 +1,28 @@
 main {
   min-height: 80vh;
+  background:linear-gradient(to bottom, #434343 0%, black 100%);
 }
 
 h3 {
   padding: 1rem 0;
+  color:white;
 }
 
 h1 {
   font-size: 1.8rem;
   padding: 1rem 0;
+  color:white;
 }
 
 h2 {
   font-size: 1.4rem;
   padding: 0.5rem 0;
+  color:white;
 }
 
 .rating span {
   margin: 0.1rem;
+  color:white;
 }
 
 /* carousel */
@@ -25,14 +30,16 @@ h2 {
 .carousel-item-prev,
 .carousel-item.active {
   display: flex;
+  color:white;
 }
 .carousel-caption {
   position: absolute;
   top: 0;
+  color:white;
 }
 
 .carousel-caption h2 {
-  color: #fff;
+  color: wheat;
 }
 
 .carousel img {
@@ -45,6 +52,7 @@ h2 {
 }
 .carousel a {
   margin: 0 auto;
+  color:white;
 }
 @media (max-width: 900px) {
   .carousel-caption h2 {
