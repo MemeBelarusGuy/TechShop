@@ -52,7 +52,10 @@ Updating Users:
 
 ### ENV
 
-This is your .env file where u have to put your mongodb url and paypal id.
+Create .env file at the same as on the image. There u have to put your mongodb url and paypal id(optional).
+
+
+![screenshot](https://github.com/MemeBelarusGuy/TechShop/blob/master/env.png)
 
 ```
 
@@ -65,8 +68,12 @@ MONGO_URI = your mongodb uri
 JWT_SECRET = 'abc123'
 
 PAYPAL_CLIENT_ID = your paypal client id
-
 ```
+###This is how you mongoDB will look like:
+
+![screenshot](https://github.com/MemeBelarusGuy/TechShop/blob/master/mongo.png)
+
+
 ### Install Dependencies (frontend & backend)
 
 ```
